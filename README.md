@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CRM PT. Smart
 
 Website Customer Relationship Management (CRM) sederhana untuk PT. Smart, dirancang khusus untuk mendukung divisi sales dan manager dalam mengelola calon customer, produk, dan proyek.
@@ -92,3 +93,6 @@ routes/
 ```bash
 git clone https://github.com/Rifkilaroyba/Rifki_crm.git
 
+=======
+# Rifki_crm
+>>>>>>> 45380d406b2aa93c1512464686b0f3bcc724e361
