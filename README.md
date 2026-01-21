@@ -69,6 +69,20 @@ routes/
   - `/projects/approve` → hanya untuk manager
 - Jika ingin sempurnakan, buat **RoleMiddleware** dan daftarkan di `app/Http/Kernel.php`.
 
+- ## Catatan Pengembangan
+
+Selama proses pengembangan terdapat beberapa kendala teknis pada environment lokal (laptop), 
+termasuk performa perangkat yang sempat menurun (lag) saat menjalankan service dan dependency development, 
+khususnya pada proses konfigurasi database dan build asset.
+
+Namun kendala tersebut berhasil diatasi dengan:
+- Penyesuaian konfigurasi PostgreSQL
+- Optimasi proses development secara bertahap
+- Pengujian ulang fitur menggunakan Laravel Tinker
+- Validasi fitur CRUD secara bertahap di setiap modul
+
+Seluruh fitur utama tetap dapat berjalan sesuai kebutuhan, dan dokumentasi penggunaan aplikasi telah disertakan pada repository ini.
+
 ---
 
 ## 👤 Demo Accounts
@@ -97,17 +111,5 @@ git clone https://github.com/Rifkilaroyba/Rifki_crm.git
 # Rifki_crm
 >>>>>>> 45380d406b2aa93c1512464686b0f3bcc724e361
 
-## Catatan Pengembangan
 
-Selama proses pengembangan terdapat beberapa kendala teknis pada environment lokal (laptop), 
-termasuk performa perangkat yang sempat menurun (lag) saat menjalankan service dan dependency development, 
-khususnya pada proses konfigurasi database dan build asset.
-
-Namun kendala tersebut berhasil diatasi dengan:
-- Penyesuaian konfigurasi PostgreSQL
-- Optimasi proses development secara bertahap
-- Pengujian ulang fitur menggunakan Laravel Tinker
-- Validasi fitur CRUD secara bertahap di setiap modul
-
-Seluruh fitur utama tetap dapat berjalan sesuai kebutuhan, dan dokumentasi penggunaan aplikasi telah disertakan pada repository ini.
 
